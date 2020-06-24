@@ -1,6 +1,20 @@
 nav{
     text-align: right;
 }
+.home{
+    background-image: url("https://versatilephotographers.com/wp-content/uploads/2018/03/versatile-adventures-elephant-closeup.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    
+
+}
+#click{
+margin-left: 50%;
+margin-top: 30%;
+
+}
+#about{text-align: center;}
+
 ul{
     list-style: none;
 }
@@ -8,17 +22,17 @@ nav li{
     display: inline;
     margin-right: 20px;   
 }
-html{
-    background-image: url("")
-    background-color: black;
-  }
+/* html{ */
+    /* background-image: url("") */
+    /* background-color: black;
+  } */
 a{
     text-decoration: none;
 }
 a:hover{
     background: red;
 }
-img:hover {
+ #gallery img:hover {
     animation: shake 1s;
     animation-iteration-count: infinite;
   }
@@ -36,4 +50,15 @@ img:hover {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+  footer ul{
+      text-align: center;
+
+   }
+   footer{
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+   }
+   
   
+   
